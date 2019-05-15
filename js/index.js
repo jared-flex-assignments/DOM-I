@@ -40,3 +40,37 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+let nav = document.querySelectorAll('a');
+nav[0].textContent = 'Services'
+nav[1].textContent = 'Product'
+nav[2].textContent = 'Vision'
+nav[3].textContent = 'Features'
+nav[4].textContent = 'About'
+nav[5].textContent = 'Contact'
+
+let headline = document.querySelector('h1')
+headline.innerHTML = 'DOM <br> IS <br> AWESOME'
+
+let mainImg = document.querySelector('#cta-img');
+mainImg.src = 'img/header-img.png'
+
+let button = document.querySelector('button');
+button.textContent = 'Get Started'
+
+let subHeading = document.querySelectorAll('h4');
+subHeading[0].textContent = 'Features'
+subHeading[1].textContent = 'About'
+subHeading[2].textContent = 'Services'
+subHeading[3].textContent = 'Product'
+subHeading[4].textContent = 'Vision'
+subHeading[5].textContent = 'Contact'
+
+let pText = document.querySelectorAll('p');
+pText[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+let middleImg = document.querySelector('#middle-img')
+middleImg.src = 'img/mid-page-accent.jpg'
